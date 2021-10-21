@@ -1,27 +1,75 @@
+body {
+    background-color: #fff;
+    }
+
 h1 {
-    font-family: "Raleway", sans-serif;
-    font-size: 36px;
-    line-height: 42px;
+    font-family: Raleway, Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: normal;
-    margin-top: 100px;
+    font-size: 36px;
+    line-height: 42px;
     text-align: center;
+    margin-top: 100px;
     color: #212121;
 }
 
-.line {
-    text-align: center;
-    margin-top: 25px;    
+hr {
+    width: 64px;
+    height: 2px;
+    left: 668px;
+    top: 163px;
+    margin-top: 25px;
 }
 
-.body {
-    color:#86878B;
+hr.red-bg {
+    background-color:  #E72424;
+    border: 1px;
+}
+
+hr.green-bg {
+    color: green;
+}
+
+h2 {
     font-family: Open Sans;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 19px;
+    color:#86878B;
     text-align: center;
     margin-top: 30px;
+    font-size: 14px;
+    line-height: 19px;
+    font-style: normal;
+    font-weight: normal; 
+    line-height: 19,07px;    
+}
+
+.margin-50 {
+    margin-top: 35px;
+}
+
+.container {
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    border: 1px solid red;
+
 
 }
+ .row {
+     display: flex;
+     flex-wrap: wrap;
+     border: 1px solid green;
+     
+}
+
+ .col3 {
+     position: relative;
+     width: 100%;
+     min-height: 1px;
+     padding-left: 15px;
+     padding-left: 15px;
+     border: 1px solid blue;
+ }
+ 
+
