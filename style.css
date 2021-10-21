@@ -56,20 +56,22 @@ h2 {
 
 
 }
- .row {
+.row {
      display: flex;
      flex-wrap: wrap;
      border: 1px solid green;
+     width: 100%;
      
 }
 
- .col3 {
+.col3 {
      position: relative;
-     width: 100%;
-     min-height: 1px;
+     width: 33%;
+     min-height: 2px;
      padding-left: 15px;
      padding-left: 15px;
      border: 1px solid blue;
- }
+     flex-basis: 0%;
+}
  
 
