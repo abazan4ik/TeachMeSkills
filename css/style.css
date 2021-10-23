@@ -31,7 +31,7 @@ hr.green-bg {
 }
 
 h2 {
-    font-family: Open Sans;
+    font-family: OpenSans;
     color:#86878B;
     text-align: center;
     margin-top: 30px;
@@ -39,39 +39,39 @@ h2 {
     line-height: 19px;
     font-style: normal;
     font-weight: normal; 
-    line-height: 19,07px;    
+    margin-bottom: 67px; 
 }
 
 .margin-50 {
     margin-top: 35px;
 }
 
-.container {
-    width: 100%;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin-right: auto;
-    margin-left: auto;
-    border: 1px solid red;
-
+.title-img {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    margin: 50px 50px;    
 
 }
-.row {
-     display: flex;
-     flex-wrap: wrap;
-     border: 1px solid green;
-     width: 100%;
-     
+.title-img-lamp {
+    background-image: url('/img/lamp.png');
 }
 
-.col3 {
-     position: relative;
-     width: 33%;
-     min-height: 2px;
-     padding-left: 15px;
-     padding-left: 15px;
-     border: 1px solid blue;
-     flex-basis: 0%;
+.title-img-keyboard {
+    background-image: url('/img/keyboard.png');
 }
- 
+
+.title-img-light {
+    background-image: url('/img/light.png');
+}
+
+.title-img-icon {
+    display: flex;
+    width: 70px;
+    height: 70px;
+    border: 1px solid #e72424;
+    border-radius: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
 
