@@ -99,13 +99,46 @@ p {
 }
 
 .title-lamp {
-    background-image: url('..//img/lamp.png') no-repeat center;
+    background-image: url('//Lesson_3/img/lamp.png') no-repeat center;
 }
 
 .title-keyboard {
-    background-image: url('..//img/keyboard.png') no-repeat center;
+    background-image: url('/Lesson_3/img/keyboard.png') no-repeat center;
 }
 
 .title-light {
-    background-image: url('..//img/light.png') no-repeat center;
+    background-image: url('/Lesson_3/img/light.png') no-repeat center;
+}
+
+.body-mail {
+    width: 1400px;
+    padding-bottom: 109px;
+}
+.body {
+    background: url('/Lesson_3/img/background_body.png') no-repeat center;
+    padding: 109px 0 0 110px;
+    height: 326px;
+}
+
+.body-title {
+    font-family: Raleway;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 42px;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+.line-white {
+    border: 1px solid #ffffff;
+    width: 64px;
+    background-color: #ffffff;
+    margin: 0 668px 30px 668px;
+}
+
+.span-body {
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0,8);
+    text-align: center;
 }
