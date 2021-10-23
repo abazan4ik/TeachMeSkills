@@ -4,3 +4,104 @@
     outline:none
 }
 
+.wrap {
+    width: 1400px;
+    margin:0px auto;
+    font-family: Open Sans;
+    box-sizing: border-box;
+}
+
+.header{
+    width: 1400px;
+    padding-top: 100px;
+    padding-bottom: 36px;
+    text-align: center;
+}
+
+.title {
+    font-family: Raleway;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 42px;
+    color: #212121;
+    margin-bottom: 25px;
+}
+
+.line {
+    border: 1px solid #e72424;
+    width: 64px;
+    background-color: #e72424;
+    margin: 0 668px 30px 668px;
+
+}
+
+span {
+    font-family: Open sans;
+    color: #86878b;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19px;
+}
+
+.block {
+    display: inline-block;
+    width: 350px;
+    margin: 0 16px;
+}
+
+.block-title{
+    margin-bottom: 29px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #333333;
+}
+
+ .block-title{
+    font-family: Open Sans;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    color: #333333;
+}
+
+p {
+    font-family: Open Sans;
+    outline-width: 400;
+    font-size: 14px;
+    line-height: 19px;
+}
+
+.lamp-img{
+    width: 23px;
+    height: 30px;
+    margin:20px;
+}
+.keyboard-img{
+    width: 37px;
+    height: 26px;
+    margin-top: 20px;
+}
+.lightng-img {
+    width: 21px;
+    height: 33px;
+    margin:19px;
+}
+.icon {
+    border: 1px solid#E72424;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    margin: 0px auto 30px
+}
+
+.title-lamp {
+    background-image: url('..//img/lamp.png') no-repeat center;
+}
+
+.title-keyboard {
+    background-image: url('..//img/keyboard.png') no-repeat center;
+}
+
+.title-light {
+    background-image: url('..//img/light.png');
+}
