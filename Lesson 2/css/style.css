@@ -78,24 +78,24 @@ p {
 .title-lamp {
     width: 23px;
     height: 30px;
-    margin:20px;
 }
+
 .title-keyboard {
     width: 37px;
-    height: 26px;
-    margin-top: 20px;
+    height: 26px;    
 }
+
 .title-light {
     width: 21px;
     height: 33px;
-    margin:19px;
 }
+
 .icon {
     border: 1px solid#E72424;
     border-radius: 50%;
     width: 70px;
     height: 70px;
-    margin: 0px auto 30px
+    margin: 0px auto 30px;
 }
 
 .title-lamp {
