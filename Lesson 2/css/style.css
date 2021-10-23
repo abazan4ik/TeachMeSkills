@@ -43,45 +43,49 @@ span {
     line-height: 19px;
 }
 
+.main {
+    display: flex;
+    justify-content: space-between;
+    width: 1400px;
+    padding-bottom: 109px;
+    text-align: center;
+}
+
 .block {
     display: inline-block;
     width: 350px;
     margin: 0 16px;
+    justify-content: space-between;
+    text-align: center;
 }
 
-.block-title{
-    margin-bottom: 29px;
-    font-size: 20px;
-    font-weight: 700;
-    color: #333333;
-}
-
- .block-title{
+ .block-title {
     font-family: Open Sans;
-    font-weight: 700;
+    font-weight: bold;
     font-size: 20px;
     line-height: 27px;
     color: #333333;
+    padding-bottom: 16px;
 }
 
 p {
     font-family: Open Sans;
-    outline-width: 400;
+    font-weight: 400;
     font-size: 14px;
     line-height: 19px;
 }
 
-.lamp-img{
+.title-lamp {
     width: 23px;
     height: 30px;
     margin:20px;
 }
-.keyboard-img{
+.title-keyboard {
     width: 37px;
     height: 26px;
     margin-top: 20px;
 }
-.lightng-img {
+.title-light {
     width: 21px;
     height: 33px;
     margin:19px;
@@ -103,5 +107,5 @@ p {
 }
 
 .title-light {
-    background-image: url('..//img/light.png');
+    background-image: url('..//img/light.png') no-repeat center;
 }
