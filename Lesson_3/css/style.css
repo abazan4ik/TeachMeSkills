@@ -125,6 +125,7 @@ h2.banner-text {
     background-image: url('/Lesson_3/img/background_body.png');
     background-size: cover;
     padding: 0;
+    height: 400px;
 }
 
 .baner-tittle {
@@ -138,12 +139,46 @@ h2.banner-text {
     padding-bottom: 48px;
 }
 
-.banner-footer {
-    background-color: #000;
+.btn-push {
+    text-align: center;
+}
+
+.btn-main {
+    text-align: center;
+    border: 1px solid #FFFFFF;
+    
+}
+.btn {
+    font-family: Open Sans;
+    font-size: 15px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #fff;
+}
+
+.banner-social  {
+    background-color: #fff;
     width: 100%;
     height: 140px;
 }
 
-h3 {
-    color: #fff;
+.copyright {
+    color: rgb(201, 201, 201);
+    text-align: center;
+    font-family: Open Sans;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.social-link {
+    display: block;
+    width: 24px;
+    height: 24px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.social-link-fb {
+    background-image: url('/Lesson_3/img/facebook-logo.png');
 }
